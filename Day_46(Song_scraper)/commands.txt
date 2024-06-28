@@ -1,0 +1,6 @@
+python -m venv tutorial-env
+source tutorial-env/scripts/activate
+python -m pip install spotify --upgrade pip
+SPOTIPY_CLIENT_ID = "08121dcaeab74c94bc04d7710cfee0bb"
+SPOTIPY_CLIENT_SECRET = "4a2d2cea18834e578b3b00d2c7eb171c"
+SPOTIFY_REDIRECT_URL = "http://example.com"
